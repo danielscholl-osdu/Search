@@ -17,8 +17,8 @@ Pre-requisites
 ## Service Configuration
 ### Anthos:
 [Anthos service configuration ](docs/anthos/README.md)
-### GCP:
-[Gcp service configuration ](docs/gcp/README.md)
+##***REMOVED***:
+[Google Cloud service configuration ](docs/gcp/README.md)
 
 ### Run Locally
 Check that maven is installed:
@@ -112,8 +112,8 @@ This section describes how to run cloud OSDU E2E tests.
 
 ### Anthos test configuration:
 [Anthos service configuration ](docs/anthos/README.md)
-### GCP test configuration:
-[Gcp service configuration ](docs/gcp/README.md)
+##***REMOVED*** test configuration:
+[Google Cloud service configuration ](docs/gcp/README.md)
 
 ## Deployment
 
