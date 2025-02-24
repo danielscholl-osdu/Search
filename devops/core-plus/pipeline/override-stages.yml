@@ -1,0 +1,14 @@
+variables:
+  CORE_SERVICE: search
+  CORE_TESTING_DIR: "testing/integration-tests"
+  CORE_BUILD_PATH: "search-core-plus/cloudbuild/Dockerfile"
+
+core-test:
+  variables:
+    DEFAULT_DATA_PARTITION_ID_TENANT2: non-exist
+    CUCUMBER_OPTIONS: "--tags ~@autocomplete"
+
+core-acceptance-test:
+  variables:
+    DEFAULT_DATA_PARTITION_ID_TENANT2: non-exist
+    CUCUMBER_OPTIONS: "--tags @default,@health,@SpatialLongitudeStandardRange"
